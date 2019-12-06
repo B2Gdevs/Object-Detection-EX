@@ -1,6 +1,5 @@
-# mapping_labels_to_hdf <br>
-## The name should be changed to "Object Detection EX"
-#### or something like that.
+# Object Detection EX <br>
+
 
 ## What is this repo for?
 This repo houses the code to analyze the data produced by detectron.  The code you will find here: 
@@ -134,4 +133,4 @@ That's the basic concept.  Pretty much everything else is arbitrary to implement
 Using a high mutation will generate too much randomness and you will never converge to a solution.  The reason for this is that Evolutionary alogrithms naturally explore spaces in all directions.  **By having a high mutation rate, parameter exploration in all directions is frequent**.  
 
 Having a high crossover means that you will converge very fast, however this only is a problem if you do crossover based on specific genes and don't do crossover over the entire chromosome like my algorithm.  This isn't necessarily a bad thing, but it is the same as throwing away possibly better solutions.  **If you crossover based on gene's then it will be up to your mutation probability to get you out of a local minimum**.
-# smallsamplelearning
+
